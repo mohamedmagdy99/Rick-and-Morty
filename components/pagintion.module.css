@@ -1,0 +1,45 @@
+.pagintion {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 1rem;
+       border-radius:50%;
+       font-size: 17px;
+       padding: 10px;
+}
+@media screen and (max-width: 600px) {
+       .pagintion {
+                width: 100%;
+                display:flexbox;
+                margin-bottom: 20px;
+       }
+}
+
+.prevnex {
+       background-color: #ecd06f;
+       color: white;
+       text-align: center;
+       width: 2.5rem;
+       height: 2.5rem;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}      
+.prevnex:hover{
+       background-color: green;
+}
+.act{
+       background-color: #ecd06f;
+       color: white;
+       text-align: center;
+       width: 2.5rem;
+       height: 2.5rem;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.act:hover {
+       background-color: red;
+}
